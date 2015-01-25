@@ -6,7 +6,7 @@ import sys
 from urlparse import urlsplit
 from ConfigParser import RawConfigParser
 
-from util.commands import run_cmd, get_output, remove_path
+from commands import run_cmd, get_output, remove_path
 from redo import retrying, retrier
 
 import logging
