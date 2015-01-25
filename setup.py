@@ -16,5 +16,8 @@ setup(
         'console_scripts': [
             'hgtool = hgtool.hgtool:main',
             ],
-        }
+        },
+    install_requires=[
+        "redo >= 1.4",
+        ],
 )
