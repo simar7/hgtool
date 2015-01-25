@@ -19,5 +19,7 @@ setup(
         },
     install_requires=[
         "redo >= 1.4",
+        "mozfile >= 1.1",
+        "mozinfo >= 0.7",
         ],
 )
